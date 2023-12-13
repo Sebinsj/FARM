@@ -34,4 +34,4 @@ async def put_todo(id,data):
 
 @app.delete('api/todo{id}')
 async def delete_todo(id):
-    return 1
+    return
